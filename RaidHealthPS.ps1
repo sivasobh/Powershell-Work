@@ -1,0 +1,1 @@
+cmd /c "C:\Program Files (x86)\MegaRAID Storage Manager\MegaCli" -EncInfo -aALL | findstr "Enclosure" | findstr /v /C:type /C:Serial /C:Zoning > c:\tmp_raid_enclosures.txt
